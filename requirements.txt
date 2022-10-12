@@ -1,3 +1,6 @@
 flask
 gunicorn
 flask-wtf
+requests
+pandas
+numpy
