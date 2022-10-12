@@ -23,6 +23,15 @@ jobs:
       - name: Install Requirements
         run:  pip install flask
 
+      - name: Install Requirements
+        run:  pip install requests
+        
+      - name: Install Requirements
+        run:  pip install pandas
+
+      - name: Install Requirements
+        run:  pip install numpy
+        
       - name: Unit Test
         run: python -m unittest -v test
 
