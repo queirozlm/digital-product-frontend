@@ -12,7 +12,7 @@ def pagina_inicial():
     request = requests.get("https://state-train-sp.herokuapp.com/")
     data = json.loads(request.content)
     dt = pd.json_normalize(data) 
-    html = dt.to_html()
+    html = (dt.to_html(classes='table table-success table-striped'))
     return html
 
 if __name__ == '__main__':
