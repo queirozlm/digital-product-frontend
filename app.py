@@ -6,5 +6,5 @@ app = Flask(__name__)
 def pagina_inicial():
     return "Hello World"
 
-if name == '__main__':
+if __name__ == '__main__':
     app.run()
